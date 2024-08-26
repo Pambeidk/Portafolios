@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafoliooo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Portafolio :)</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre-mi">Sobre Mí</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="sobre-mi" class="fadeIn">
+        <div class="container">
+            <h2>Sobre Mí</h2>
+            <p>Hola, soy Eduard. Soy un desarrollador Web. Tengo experiencia en HTML y CSS y estoy en constante aprendizaje.</p>
+             
+        </div>
+    </section>
+
+    <section id="proyectos" class="fadeIn">
+        <div class="container">
+            <h2>Proyectos</h2>
+            <div class="proyectos-grid">
+                <div class="proyecto">
+                    <h3>Proyecto 1</h3>
+                    <p>Descripción breve del proyecto 1. Incluye lo que hiciste y las tecnologías utilizadas.</p>
+                </div>
+                <div class="proyecto">
+                    <h3>Proyecto 2</h3>
+                    <p>Descripción breve del proyecto 2. Incluye lo que hiciste y las tecnologías utilizadas.</p>
+                </div>
+                <!-- Agregar mas proyectos aquí -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="fadeIn">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme a través de los siguientes medios:</p>
+            <ul>
+                <li>Email: <a href="mailto:frayeduar07@gmail.com">frayeduar07@gmail.com</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/tu-perfil" target="_blank">eduarlookingforajob</a></li>
+                <!-- Agregar mas formas de contacto aquí -->
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Eduard. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
